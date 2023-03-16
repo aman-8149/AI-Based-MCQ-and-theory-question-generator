@@ -166,7 +166,7 @@ def question():
     return render_template("MCQ.html")
 
 
-openai.api_key = "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"
+openai.api_key = "open-ai_api key"
 def generate_questions_and_answers(paragraph):
     model_engine = "text-davinci-002"  # choose a language model to use
 
